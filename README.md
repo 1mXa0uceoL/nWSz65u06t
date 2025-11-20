@@ -6,8 +6,8 @@
 
 - Make Conda Environment
 ```
-conda create -n torch2 python=3.9 -y
-conda activate torch2
+conda create -n Multinex python=3.9 -y
+conda activate Multinex
 ```
 
 - Install Dependencies
@@ -156,5 +156,6 @@ python3 basicsr/train.py --opt Options/Multinex_LOL-v2-real_3-A-3_HybL.yaml
 
 # LOL-v2-synthetic
 python3 basicsr/train.py --opt Options/Multinex_LOL-v2-syn_3-A-3_HybL.yaml  
+
 
 ```
